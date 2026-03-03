@@ -1,0 +1,12 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Futura', 'Century Gothic', 'CenturyGothic', 'AppleGothic', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+};
